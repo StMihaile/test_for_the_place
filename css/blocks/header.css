@@ -1,0 +1,22 @@
+.header {
+  padding: 15px 0;
+  background-color: #FFFFFF;
+}
+
+.header__wrapper,
+.header__logo-link,
+.header__button {
+  display: flex;
+}
+
+.header__wrapper {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
