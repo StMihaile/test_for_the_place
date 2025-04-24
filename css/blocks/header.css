@@ -1,22 +1,79 @@
 .header {
-  padding: 15px 0;
+  padding:  32px 0;
   background-color: #FFFFFF;
 }
 
-.header__wrapper,
-.header__logo-link,
-.header__button {
-  display: flex;
-}
 
 .header__wrapper {
+  display: flex;
   align-items: center;
   justify-content: space-between;
 }
+.header__logo-link {
+  display: flex;
+  align-items: center;
+}
 
-.header__button {
-  padding: 0;
-  border: none;
-  background-color: transparent;
+.header__label-text {
+ font-size: 16px;
+ line-height: 100%;
+ color: #222222;
+ font-weight: 800;
+ text-transform: uppercase;
+ font-family: "Montserrat", "Arial", sans-serif;
+
+}
+
+.header-buttons {
+  display: flex;
   cursor: pointer;
+  gap: 15px;
+  width: 181px;
+  height: 36px;
+  
+}
+
+.header-navigation__list {
+  display: flex;
+  list-style-type: none;
+  width: 295px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.header-navigation__link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  color: #222222;
+}
+
+.header-navigation__link--bold {
+  font-weight: 700;
+}
+
+.header-navigation__menu {
+  width: 76px;
+  font-size: 14px;
+  border: none;
+}
+
+.header-buttons__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #FFFFFF;
+
+}
+
+.header-buttons__message {
+  width: 130px;
+  background-color: #222222;
+  border-radius: 8px;
+}
+
+.header-buttons__search {
+  background-color: #222222;
+  border-radius: 8px;
 }
