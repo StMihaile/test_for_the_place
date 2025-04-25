@@ -1,0 +1,40 @@
+.banner {
+    display: flex;
+    padding: 64px 32px 88px;
+    gap: 64px;
+}
+
+.banner__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.banner__title {
+    font-size: 36px;
+    line-height: 100%;
+    margin: 0;
+}
+
+.banner__text {
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+    margin: 0;
+}
+
+.banner__button {
+    width: 160px;
+    border-radius: 12px;
+    padding: 14px 40px;
+}
+
+.banner__button-text {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    text-transform: uppercase;
+}

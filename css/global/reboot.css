@@ -22,3 +22,12 @@ a {
   text-decoration: none;
 }
 
+h1, h2, h3, p, span {
+  color: #222222;
+}
+
+button {
+  background-color: #222222;
+  border-radius: 8px;
+  padding: 9px;
+}
