@@ -15,4 +15,11 @@
 <symbol id="icon-arrow"  viewBox="0 0 32 15" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M31.7143 7.52204L25.4287 14.0625L24.5338 13.1845L29.3715 8.15062L0.285713 8.15062V6.8903L29.3789 6.8903L24.5338 1.81221L25.4319 0.9375L31.7143 7.52204Z" fill="#F26E36"/>
 </symbol>
+<symbol id="button-prev" viewBox="0 0 50 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 10.9647L9.99982 0.5L11.4235 1.90476L3.72711 9.95901L50 9.95901V11.9755L3.71535 11.9755L11.4235 20.1005L9.99476 21.5L0 10.9647Z" fill="#222222"/>
+</symbol>
+
+<symbol id="button-next" viewBox="0 0 50 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M50 11.0353L40.0002 21.5L38.5765 20.0952L46.2729 12.041L0 12.041V10.0245L46.2846 10.0245L38.5765 1.89953L40.0052 0.5L50 11.0353Z" fill="#222222"/>
+</symbol>
 </svg>

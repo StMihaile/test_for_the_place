@@ -7,8 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
   <title>Тестовое задание</title>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 </head>
 
 <body>
@@ -81,103 +82,199 @@
             </svg>
           </a>
         </div>
-          <ul class="articles__list">
-            <li class="articles__item articles__item--size-xl">
-              <img class="articles__img" src="/images/banner-image.jpg" alt="Изображение лестницы" width="430"
-                height="180">
-              <h3 class="articles__item-title">Artlicle title</h3>
-              <p class="articles__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Ut&nbsp;et&nbsp;massa&nbsp;mi. Aliquam in&nbsp;hendrerit urna. Pellentesque sit amet sapien fringilla,
-                mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue.
-                Vestibulum auctor ornare leo, non suscipit magna interdum&nbsp;eu. Curabitur pellentesque nibh nibh,
-                at&nbsp;maximus ante fermentum sit amet. Pellentesque commodo lacus at&nbsp;sodales sodales. Quisque
-                sagittis orci ut&nbsp;diam condimentum, vel euismod erat placerat. In&nbsp;iaculis arcu eros, eget
-                tempus orci facilisis&nbsp;id.<br><br>
-                Vestibulum auctor ornare leo, non suscipit magna interdum&nbsp;eu. Curabitur pellentesque nibh nibh,
-                at&nbsp;maximus ante fermentum sit amet. Pellentesque commodo lacus at&nbsp;sodales sodales. Quisque
-                sagittis orci ut&nbsp;diam condimentum, vel euismod erat placerat. In&nbsp;iaculis arcu eros, eget
-                tempus orci facilisis id.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Ut&nbsp;et&nbsp;massa&nbsp;mi. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
-                ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum...</p>
-              <span class="articles__author">Article Author</span>
-            </li>
-            <li class="articles__item">
-              <img class="articles__img" src="/images/banner-image.jpg" alt="Изображение лестницы" width="400"
-                height="150">
-              <h3 class="articles__item-title">Artlicle title</h3>
-              <p class="articles__text articles__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Ut&nbsp;et&nbsp;massa&nbsp;mi. Aliquam in&nbsp;hendrerit urna. Pellentesque sit amet sapien fringilla,
-                mattis ligula consectetur, ultrices ma...</p>
-            </li>
-            <li class="articles__item">
-              <img class="articles__img" src="/images/banner-image.jpg" alt="Изображение лестницы" width="400"
-                height="150">
-              <h3 class="articles__item-title">Artlicle title</h3>
-              <p class="articles__text articles__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Ut&nbsp;et&nbsp;massa&nbsp;mi. Aliquam in&nbsp;hendrerit urna. Pellentesque sit amet sapien fringilla,
-                mattis ligula consectetur, ultrices ma...</p>
-            </li>
-            <li class="articles__modal">
-              <button class="articles__button">show more articles</button>
-            </li>
-          </ul>
+        <ul class="articles__list">
+          <li class="articles__item articles__item--size-xl">
+            <img class="articles__img" src="/images/banner-image.jpg" alt="Изображение лестницы" width="430"
+              height="180">
+            <h3 class="articles__item-title">Artlicle title</h3>
+            <p class="articles__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Ut&nbsp;et&nbsp;massa&nbsp;mi. Aliquam in&nbsp;hendrerit urna. Pellentesque sit amet sapien fringilla,
+              mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue.
+              Vestibulum auctor ornare leo, non suscipit magna interdum&nbsp;eu. Curabitur pellentesque nibh nibh,
+              at&nbsp;maximus ante fermentum sit amet. Pellentesque commodo lacus at&nbsp;sodales sodales. Quisque
+              sagittis orci ut&nbsp;diam condimentum, vel euismod erat placerat. In&nbsp;iaculis arcu eros, eget
+              tempus orci facilisis&nbsp;id.<br><br>
+              Vestibulum auctor ornare leo, non suscipit magna interdum&nbsp;eu. Curabitur pellentesque nibh nibh,
+              at&nbsp;maximus ante fermentum sit amet. Pellentesque commodo lacus at&nbsp;sodales sodales. Quisque
+              sagittis orci ut&nbsp;diam condimentum, vel euismod erat placerat. In&nbsp;iaculis arcu eros, eget
+              tempus orci facilisis id.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Ut&nbsp;et&nbsp;massa&nbsp;mi. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
+              ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum...</p>
+            <span class="articles__author">Article Author</span>
+          </li>
+          <li class="articles__item">
+            <img class="articles__img" src="/images/banner-image.jpg" alt="Изображение лестницы" width="400"
+              height="150">
+            <h3 class="articles__item-title">Artlicle title</h3>
+            <p class="articles__text articles__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Ut&nbsp;et&nbsp;massa&nbsp;mi. Aliquam in&nbsp;hendrerit urna. Pellentesque sit amet sapien fringilla,
+              mattis ligula consectetur, ultrices ma...</p>
+          </li>
+          <li class="articles__item">
+            <img class="articles__img" src="/images/banner-image.jpg" alt="Изображение лестницы" width="400"
+              height="150">
+            <h3 class="articles__item-title">Artlicle title</h3>
+            <p class="articles__text articles__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Ut&nbsp;et&nbsp;massa&nbsp;mi. Aliquam in&nbsp;hendrerit urna. Pellentesque sit amet sapien fringilla,
+              mattis ligula consectetur, ultrices ma...</p>
+          </li>
+          <li class="articles__modal">
+            <button class="articles__button">show more articles</button>
+          </li>
+        </ul>
       </div>
-
       <div class="swiper">
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-wrapper">
-
-          <!-- Slides -->
-          <div class="swiper-slide">
-            <div class="slide">
-              <img class="slide__img" src="/images/banner-image.jpg" alt="Изображение лестницы" width="332"
-                height="250">
-              <h3 class="slide__title">Slider card title</h3>
-              <p class="slide__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Ut&nbsp;et&nbsp;massa&nbsp;mi. Aliquam in&nbsp;hendrerit urna. Pellentesque sit amet sapien fringilla.
-              </p>
-              <a class="slide__link" href="#"> go to page</a>
+        <div class="slider__content">
+          <h2 class="swiper__title">This perfect slider</h2>
+          <div class="swiper__buttons">
+            <div class="swiper__button-prev">
+              <svg class="swiper_arrow" width="50" height="21" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#button-prev"></use>
+              </svg>
             </div>
-            <div class="slide">
-              <img class="slide__img" src="/images/banner-image.jpg" alt="Изображение лестницы" width="332"
-                height="250">
-              <h3 class="slide__title">Slider card title</h3>
-              <p class="slide__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Ut&nbsp;et&nbsp;massa&nbsp;mi. Aliquam in&nbsp;hendrerit urna. Pellentesque sit amet sapien fringilla.
-              </p>
-              <ul class="slide__tags">
-                <li class="slide__tags-item">this tag</li>
-                <li class="slide__tags-item">this tag</li>
-                <li class="slide__tags-item">this tag</li>
-                <li class="slide__tags-item">this tag</li>
-              </ul>
-            </div>
-            <div class="slide">
-              <img class="slide__img" src="/images/banner-image.jpg" alt="Изображение лестницы" width="332"
-                height="250">
-              <h3 class="slide__title">Slider card title</h3>
-              <p class="slide__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Ut&nbsp;et&nbsp;massa&nbsp;mi. Aliquam in&nbsp;hendrerit urna. Pellentesque sit amet sapien fringilla.
-              </p>
-              <a class="slide__link" href="#"> go to page</a>
-            </div>
-            <div class="slide">
-              <img class="slide__img" src="/images/banner-image.jpg" alt="Изображение лестницы" width="332"
-                height="250">
-              <h3 class="slide__title">Slider card title</h3>
-              <p class="slide__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Ut&nbsp;et&nbsp;massa&nbsp;mi. Aliquam in&nbsp;hendrerit urna. Pellentesque sit amet sapien fringilla.
-              </p>
-              <a class="slide__link" href="#"> go to page</a>
+            <div class="swiper__button-next">
+              <svg class="swiper_arrow" width="50" height="21" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#button-next"></use>
+              </svg>
             </div>
           </div>
         </div>
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img class="slide__img" src="/images/slider-card-image.png" alt="Изображение лестницы" width="332"
+              height="250">
+            <h3 class="slide__title">Slider card title</h3>
+            <p class="slide__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Ut&nbsp;et&nbsp;massa&nbsp;mi. Aliquam in&nbsp;hendrerit urna. Pellentesque sit amet sapien fringilla.
+            </p>
+            <button class="slide__button"> go to page</a>
+          </div>
+          <div class="swiper-slide">
+            <img class="slide__img" src="/images/slider-card-image.png" alt="Изображение лестницы" width="332"
+              height="250">
+            <h3 class="slide__title">Slider card title</h3>
+            <p class="slide__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Ut&nbsp;et&nbsp;massa&nbsp;mi. Aliquam in&nbsp;hendrerit urna. Pellentesque sit amet sapien fringilla.
+            </p>
+            <ul class="slide__tags">
+              <li class="slide__tags-item">this tag</li>
+              <li class="slide__tags-item">this tag</li>
+              <li class="slide__tags-item">this tag</li>
+              <li class="slide__tags-item">this tag</li>
+            </ul>
+          </div>
+          <div class="swiper-slide">
+            <img class="slide__img" src="/images/slider-card-image.png" alt="Изображение лестницы" width="332"
+              height="250">
+            <h3 class="slide__title">Slider card title</h3>
+            <p class="slide__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Ut&nbsp;et&nbsp;massa&nbsp;mi. Aliquam in&nbsp;hendrerit urna. Pellentesque sit amet sapien fringilla.
+            </p>
+            <button class="slide__button"> go to page</a>
+          </div>
+          <div class="swiper-slide">
+            <img class="slide__img" src="/images/slider-card-image.png" alt="Изображение лестницы" width="332"
+              height="250">
+            <h3 class="slide__title">Slider card title</h3>
+            <p class="slide__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Ut&nbsp;et&nbsp;massa&nbsp;mi. Aliquam in&nbsp;hendrerit urna. Pellentesque sit amet sapien fringilla.
+            </p>
+            <button class="slide__button"> go to page</a>
+          </div>
+          <div class="swiper-slide">
+            <img class="slide__img" src="/images/slider-card-image.png" alt="Изображение лестницы" width="332"
+              height="250">
+            <h3 class="slide__title">Slider card title</h3>
+            <p class="slide__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Ut&nbsp;et&nbsp;massa&nbsp;mi. Aliquam in&nbsp;hendrerit urna. Pellentesque sit amet sapien fringilla.
+            </p>
+            <button class="slide__button"> go to page</a>
+          </div>
+          <div class="swiper-slide">
+            <img class="slide__img" src="/images/slider-card-image.png" alt="Изображение лестницы" width="332"
+              height="250">
+            <h3 class="slide__title">Slider card title</h3>
+            <p class="slide__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Ut&nbsp;et&nbsp;massa&nbsp;mi. Aliquam in&nbsp;hendrerit urna. Pellentesque sit amet sapien fringilla.
+            </p>
+            <ul class="slide__tags">
+              <li class="slide__tags-item">this tag</li>
+              <li class="slide__tags-item">this tag</li>
+              <li class="slide__tags-item">this tag</li>
+              <li class="slide__tags-item">this tag</li>
+            </ul>
+          </div>
+          <div class="swiper-slide">
+            <img class="slide__img" src="/images/slider-card-image.png" alt="Изображение лестницы" width="332"
+              height="250">
+            <h3 class="slide__title">Slider card title</h3>
+            <p class="slide__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Ut&nbsp;et&nbsp;massa&nbsp;mi. Aliquam in&nbsp;hendrerit urna. Pellentesque sit amet sapien fringilla.
+            </p>
+            <button class="slide__button"> go to page</a>
+          </div>
+          <div class="swiper-slide">
+            <img class="slide__img" src="/images/slider-card-image.png" alt="Изображение лестницы" width="332"
+              height="250">
+            <h3 class="slide__title">Slider card title</h3>
+            <p class="slide__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Ut&nbsp;et&nbsp;massa&nbsp;mi. Aliquam in&nbsp;hendrerit urna. Pellentesque sit amet sapien fringilla.
+            </p>
+            <ul class="slide__tags">
+              <li class="slide__tags-item">this tag</li>
+              <li class="slide__tags-item">this tag</li>
+              <li class="slide__tags-item">this tag</li>
+              <li class="slide__tags-item">this tag</li>
+            </ul>
+          </div>
 
+        </div>
         <!--scrollbar -->
         <div class="swiper-scrollbar"></div>
       </div>
     </div>
+    <script>
+      new Swiper('.swiper', {
+        direction: 'horizontal',
+        loop: true,
+        navigation: { nextEl: '.swiper__button-next', prevEl: '.swiper__button-prev' },
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+        keyboard: {
+          enabled: true,
+          onlyInViewport: false,
+        },
+        mousewheel: {
+          invert: true,
+        },
+        autoplay: {
+          delay: 5000,
+        },
+        slidesPerView: 1,
+        spaceBetween: 10,
+
+        breakpoints: {
+          //   320px
+          320: {
+            slidesPerView: 2,
+            spaceBetween: 20
+          },
+          //  480px
+          480: {
+            slidesPerView: 3,
+            spaceBetween: 30
+          },
+          //  640px
+          640: {
+            slidesPerView: 4,
+            spaceBetween: 16
+          }
+        }
+      });
+    </script>
+
   </main>
   <footer class="footer">
     <div class="footer__top">
