@@ -119,10 +119,64 @@
               mattis ligula consectetur, ultrices ma...</p>
           </li>
           <li class="articles__modal">
-            <button class="articles__button">show more articles</button>
+            <button class="articles__button" id="button-modal">show more articles</button>
           </li>
         </ul>
       </div>
+      <!-- Модальное окно -->
+      <div class="modal" id="modal-1" >
+        <div class="modal__content">
+          <div class="modal__top">
+          <div class="modal__author">
+            <div class="modal__avatar"></div>
+            <div class="modal__info">
+            <p class="modal__name">John Connor</p>
+            <p class="modal__profession">Backend developer</p>
+          </div>
+          </div>
+            <ul class="modal__rating">
+              <li class="modal__star">
+                <svg class="modal__icon-star" width="20" height="20" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li class="modal__star">
+                <svg class="modal__icon-star" width="20" height="20" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li class="modal__star">
+                <svg class="modal__icon-star" width="20" height="20" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li class="modal__star">
+                <svg class="modal__icon-star" width="20" height="20" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li class="modal__star">
+                <svg class="modal__icon-star" width="20" height="20" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#icon-star"></use>
+                </svg>
+              </li>
+            </ul>
+          </div>
+          <div class="modal__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore ea&nbsp;consectetur
+            dolorem. Fugiat optio dicta quaerat placeat iste? In&nbsp;obcaecati dolores magni expedita perspiciatis
+            consectetur recusandae nulla qui placeat culpa aspernatur, dolorem eum quo et&nbsp;hic aperiam odio enim,
+            nisi soluta? Veritatis fugit voluptatem, dignissimos explicabo?</div>
+          <div class="modal__control">
+            <button class="modal__button-product" >go to product</button>
+            <button class="modal__button-notifi">
+              <svg class="modal__icon-message" width="24" height="24" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#icon-message"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <script src="./js/script.js"></script>
       <div class="swiper">
         <div class="swiper__content">
           <h2 class="swiper__title">This perfect slider</h2>
