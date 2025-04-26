@@ -68,3 +68,7 @@
 .header-buttons__message {
   width: 130px;
 }
+
+.header__logo {
+  color: #F26E36;
+}

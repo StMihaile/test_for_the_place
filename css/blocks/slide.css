@@ -1,17 +1,4 @@
-.swiper{
-    
-    border-top: 1px solid #22222280;
-    padding: 67px 32px 32px !important;
-}
-
-.swiper-wrapper {
-    gap: 16px;
-    display: flex;
-    flex-direction: row;
-
-}
-
-.swiper-slide {
+.slide {
     width: 332px;
     border-radius: 15px;
     box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.05);
@@ -43,22 +30,6 @@
     margin: 20px 16px 16px
 }
 
-.swiper__content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 64px 0 30px;
-}
-
-.swiper__buttons {
-    width: 150px;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    align-items: center;
-}
-
 .slide__tags {
     list-style: none;
     display: flex;
@@ -77,13 +48,4 @@
     padding: 5px 16px;
     cursor: pointer;
 
-}
-
-.swiper-scrollbar {
-    min-height: 10px;
-}
-
-.swiper__button-prev,
-.swiper__button-next {
-    cursor: pointer;
 }
