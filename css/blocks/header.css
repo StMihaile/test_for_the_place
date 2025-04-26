@@ -1,6 +1,5 @@
 .header {
-  padding: 32px 0;
-  background-color: #FFFFFF;
+  padding: 0;
 }
 
 
@@ -8,6 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 40px 32px;
 }
 
 .header__logo-link {
@@ -58,6 +58,7 @@
 }
 
 .header-buttons__text {
+  display: block;
   font-weight: 400;
   font-size: 12px;
   line-height: 140%;
@@ -67,8 +68,56 @@
 
 .header-buttons__message {
   width: 130px;
+  color: #FFFFFF;
+  display: flex;
+  gap: 5px;
+  position: relative;
+}
+
+.header-buttons__message::before {
+  width: 8px;
+  height: 8px;
+  background-color: #F26E36;
+  display: flex;
+  content: '';
+  position: absolute;
+  left: 3px;
+  bottom: 22px;
+  border-radius: 5px;
 }
 
 .header__logo {
   color: #F26E36;
+}
+
+
+select>option {
+  background-color: transparent;
+  border: 0;
+  background-color: #222222;
+  color: #FFFFFF;
+  padding-right: 15px;
+  height: 31px;
+  width: 220px;
+}
+select>option:nth-child(1) {
+  background-color: #222222;
+  color: #FFFFFF;
+}
+
+select>option:nth-last-child {
+  background-color: #222222;
+  color: #FFFFFF;
+}
+
+.select>select {
+  width: 100%;
+  color: #222222;
+  font-size: 14px;
+  line-height: 2.5;
+  background: transparent;
+  border: 0;
+  overflow: hidden;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }

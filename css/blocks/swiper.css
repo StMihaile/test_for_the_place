@@ -51,8 +51,7 @@
 }
 
 .swiper__buttons {
-    width: 150px;
-    position: relative;
+    max-width: 150px;
     display: flex;
     flex-direction: row;
     gap: 20px;

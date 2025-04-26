@@ -4,3 +4,13 @@
   padding: 0 240px 88px;
   background-color: #ffffff;
 }
+
+.container--header {
+  padding-bottom: 0;
+}
+
+.container--footer {
+  padding-bottom: 12px;
+  min-height: 120px;
+  background-color: #222222;
+}
