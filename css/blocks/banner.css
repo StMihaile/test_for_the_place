@@ -1,6 +1,6 @@
 .banner {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 600px 712px;
     padding: 64px 32px 88px;
     gap: 64px;
 }
